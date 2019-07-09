@@ -14,8 +14,8 @@ class Book {
   async fetchTxt(url) {
     try {
       let response = await fetch(url);
-      if (!response.status == 200) {
-        throw new Error();
+      if (response.status !== 200) {
+        throw new Error(response.status);
       }
       let user = await response.text();
       this.pages = await this.getPages(user);
