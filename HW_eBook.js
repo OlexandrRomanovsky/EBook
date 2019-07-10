@@ -92,7 +92,7 @@ class Book {
 }
 
 let jungle = new Book(
-  "https://jsonplaceholder.typicode.com/users",
+  "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquam sequi, libero iste recusandae autem vero sed. Fugiat dolorem nulla ex vero, cumque reprehenderit temporibus voluptatibus, quaerat non pariatur minima.",
   "Taras Shevchenko",
   123
 );
